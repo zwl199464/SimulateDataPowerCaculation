@@ -1,0 +1,7 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^development$
+^development/*.$
+^Shiny\.R$
+^DDF\.csv$
+^table\.rds$

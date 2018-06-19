@@ -1,0 +1,16 @@
+Package: SimulateDataPowerCaculation
+Type: Package
+Title: Simulate Discrete data and do power calculation and plotting
+Version: 0.1.0
+Author: Weilu Zhao, Lily Wang
+Maintainer: Weilu <zwl19946422@gmail.com>
+Description: This package is prepare to develop a shiny web app. it include the 
+    fuction to generate discrete data with user defined range and correlation matrix,
+    it also include function to produce the power calculation for Principal component 
+    analysis and for Supervised Principal component analysis. Along with their power plot.
+License: GPL-3
+Depends: R (>= 2.10)
+Encoding: UTF-8
+LazyData: true
+Imports: ggplot2, stringr, GenOrd, dplyr, readr, readxl, ggpubr, foreach, psych, stats, doParallel, parallel, shiny, rhandsontable
+RoxygenNote: 6.0.1
