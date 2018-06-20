@@ -36,7 +36,6 @@ plotData <- function(from, to, by, dat, sd, iterations=100,core=7,seed=17) {
     names(res.power)<-c("beta","pcaPower","spcaPower")
     PlotData[[counter]]<-res.power
     counter <- counter + 1
-    close(pipe("<-WEILU-ZHAO-PC:11867"))
     PlotData
   }
   PlotData_F<-data.frame(do.call(rbind, PlotData))
