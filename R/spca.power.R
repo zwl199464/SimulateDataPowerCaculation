@@ -80,6 +80,9 @@ spca.power <- function(dat,core=7,beta=0.5,sd=5,iterations=1000,seed=17) {
   colnames(df)<-c('method','iteration','p_value')
 
   spcaPower<-sum(df$p_value<0.05)/iterations
+  
+  close(pipe("<-WEILU-ZHAO-PC:11867")
+        
   stopImplicitCluster()
 
   return(spcaPower)
